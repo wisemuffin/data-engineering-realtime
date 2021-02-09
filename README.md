@@ -4,6 +4,8 @@ I have created this project to demo real time reporting performance for various 
 
 ## Architecture
 
+![Architecture - see below](Architecture.png)
+
 ## Components
 
 - Kafka Producer - Nodejs app generating fake data
