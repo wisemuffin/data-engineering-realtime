@@ -3,8 +3,6 @@ const config = require('./config');
 
 const client = new kafka.KafkaClient({ kafkaHost: config.KafkaHost });
 
-
-
 const topicToCreate = [{
     topic: config.KafkaTopic,
     partitions: 1,
